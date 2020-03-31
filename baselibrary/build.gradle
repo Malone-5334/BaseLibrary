@@ -44,4 +44,6 @@ dependencies {
     api rootProject.ext.retrofit
     api rootProject.ext.dbflow
     api rootProject.ext.rxLifecycle
+
+    api files('libs/commons-net-3.6.jar')
 }
